@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width", initial-scale=1.8">
+        <title>Online Store - Home</title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="stylesheet" href="./css/product.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Cinzel&family=Lato&family=Libre+Baskerville&family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <!----------navbar------------>
+        <nav class="navbar bg">
+            <ul class="links-container">
+                <li class="link-item"><a href="index.html" class="link active">home</a></li>
+    <li class="link-item"><a href="myproduct.html" class="link">product</a></li>
+    <li class="link-item"><a href="dashboard" class="link">Dashboard</a></li>
+    <li class="link-item"><a href="seller.html" class="link">Seller</a></li>
+            </ul>
+            <div class="user-interactions">
+                <div class="cart">
+                    <img src="img/cart.png" class="cart-icon" alt="">
+                    <span class="cart-item-count">00</span>
+                </div>
+                <div class="user">
+                    <img src="img/user.png" class="user-icon" >
+                </div>
+            </div>
+        </nav>
+        <!----product detail-->
+        <section class="product-section">
+            <img src="img/product-image.png" class="product-image" alt="">
+            <div class="product-detail">
+                <h1 class="product-title">premium sofa</h1>
+                <p class="product-des"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi repellat maiores beatae corrupti culpa ut.</p>
+                <div class="ratings">
+                    <img src="img/fill star.png" class="star" alt="">
+                    <img src="img/fill star.png" class="star" alt="">
+                    <img src="img/fill star.png" class="star" alt="">
+                    <img src="img/fill star.png" class="star" alt="">
+                    <img src="img/no fill star.png" class="star" alt="">
+                    <span class="rating-count">4,023 reviews</span>
+                    </div>
+                    <p class="price">4,999 Rs</p>
+                    <div class="btn-container">
+                        <button class="product-btn buy-btn"><a href="https://buy.stripe.com/test_14k16Gfut67P8XmfYY" style="text-decoration: none; color: white;">Buy now</a></button>
+                        <button class="product-btn cart-btn"><a href="https://buy.stripe.com/test_14k16Gfut67P8XmfYY" style="text-decoration: none; color: white;">Add to cart</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="detail-des">
+            <h1 class="section-title">details</h1>
+            <p class="des">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium iure eius ea doloribus tenetur quos debitis tempora beatae odit quibusdam, temporibus minima obcaecati esse ab dolorum laboriosam dolorem. Nisi, quia neque exercitationem consectetur recusandae amet ipsa laborum illum sit aliquam molestiae autem, ad voluptatum impedit voluptate non iste deleniti, sequi odio sed asperiores rerum? Tenetur, eos quam asperiores nobis distinctio, natus quis voluptate, saepe odio eligendi voluptatem numquam ab! Nisi, eos ab voluptatem corrupti ipsam, aspernatur minima ratione veniam optio aperiam rem tempore itaque laudantium alias provident officia minus! Perferendis eos tempore optio suscipit, molestias rerum quasi similique. <br>Doloribus perspiciatis officia eaque et sed placeat beatae rem obcaecati repellendus? Voluptas qui exercitationem voluptate velit, nobis eius fugit ad illum neque nulla iste iure minus sit deleniti molestias assumenda. Nesciunt, modi. Adipisci non voluptas omnis itaque, maxime ea aut a deleniti autem ullam deserunt incidunt, quasi optio praesentium id ad labore!</p>
+        </section>
+        <!-- review section-->
+        <section class="review-section">
+            <h1 class="section-title"> Reviews</span></h1>
+            <div class="review-container">
+                <div class="review-card">
+                    <div class="user-dp" data-rating="4.9"><img src="img/user 1.png" alt=""></div>
+                    <h2 class="review-title">best quality better than my expectation</h2>
+                    <p classes="review">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, iure? Quibusdam dolores quae nemo amet.</p>
+                </div>
+                <div class="review-card">
+                    <div class="user-dp" data-rating="4.2"><img src="img/user 2.png" alt=""></div>
+                    <h2 class="review-title">one the time delivery with best packaging</h2>
+                    <p classes="review">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, iure? Quibusdam dolores quae nemo amet.</p>
+                </div>
+                <div class="review-card">
+                    <div class="user-dp" data-rating="3.2"><img src="img/user 3.png" alt=""></div>
+                    <h2 class="review-title">very helpful customer support</h2>
+                    <p classes="review">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, iure? Quibusdam dolores quae nemo amet.</p>
+                </div>
+                <div class="review-card">
+                    <div class="user-dp" data-rating="3.8"><img src="img/user 4.png" alt=""></div>
+                    <h2 class="review-title">very easy to return/refund products</h2>
+                    <p classes="review">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, iure? Quibusdam dolores quae nemo amet.</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!--add review form-->
+        <section class="add-review-section">
+            <h1 class="section-title">add a review</h1>
+            <input type="text" class="review-headline" placeholder="review headline">
+            <textarea placeholder="review" class="review-field"></textarea>
+            <p class="rating-text">how much you like the product </p>
+            <div class="star-container">
+                    <img src="img/no fill star.png" class="rating-star" alt="">
+                    <img src="img/no fill star.png" class="rating-star" alt="">
+                    <img src="img/no fill star.png" class="rating-star" alt="">
+                    <img src="img/no fill star.png" class="rating-star" alt="">
+                    <img src="img/no fill star.png" class="rating-star" alt="">
+            </div>
+            <button class="add-review-btn">add review</button>
+        </section>
+        
+        
+        <!------similar products-->
+        <section class="best-selling-product-section">
+            <h1 class="section-title">best similar products</h1>
+            <div class="product-container">
+                    <div class="product-card">
+                        <img src="img/product-1.png" class="product-img">
+                        <p class="product-name">lights -></p>
+                    </div>
+                    <div class="product-card">
+                        <img src="img/product-2.png" class="product-img">
+                        <p class="product-name">table  -></p>
+                    </div>
+                    <div class="product-card">
+                        <img src="img/product-3.png" class="product-img">
+                        <p class="product-name">storage -></p>
+                    </div>
+                    <div class="product-card">
+                            <img src="img/product-4.png" class="product-img">
+                            <p class="product-name">sofa -></p>
+                    </div>
+            </div>
+        </section>
+        
+
+        <footer>Made by Adarsh Pandey with ❤️</footer>
+        <script src="./js/product.js"></script>
+
+    
+    </body>
+    </html>
